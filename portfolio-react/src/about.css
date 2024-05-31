@@ -1,0 +1,57 @@
+body{
+    background-image: url(./assets/blurPict2.jpg);
+}
+
+#about{
+    display: flex;
+}
+
+.top_text p{
+    text-align: center;
+    font-size: 30px;
+}
+
+#photo_block img{
+    width: 300px;
+    padding: 10px;
+}
+
+#intro_block p{
+    padding: 20px 10px;
+}
+
+.about_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about_skill{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    transition: 0.6s;
+    padding-left: 30px;
+}
+
+.about_skill p{
+    min-width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about_skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(234deg, rgb(137, 139, 17) -5.09%, rgb(151, 24, 24) 106.28%);
+}
+
+.link{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
