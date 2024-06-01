@@ -6,3 +6,63 @@
 body{
     background-image: url(./assets/blurPict5.jpg);
   }
+
+
+
+
+form {
+    
+    left: calc(50% - 250px);
+    max-width: 500px;
+    background-color: white;
+    margin: 70px auto;
+    border: #286762 solid 3px;
+}
+
+
+
+h1 {
+    color: rgb(7, 7, 145);
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: #286762 solid 3px;
+    padding: 5px;
+    margin: 0 0 10px;
+    outline: none;
+}
+
+input:focus {
+    background-color: rgba(54, 246, 208, 0.725);
+    box-shadow: 1px 1px 6px 3px rgba(28, 178, 131, 0.626);
+}
+
+textarea {
+    border: #286762 solid 3px;
+    padding: 5px;
+    margin: 0 0 10px;
+    outline: none;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+textarea:focus {
+    box-shadow: 1px 1px 6px 3px rgba(28, 178, 131, 0.626);
+}
+.btn3 {
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-color:#262350;
+    border: #286762 solid 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}

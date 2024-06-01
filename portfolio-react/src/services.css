@@ -6,3 +6,27 @@
 body{
     background-image: url(./assets/blurPict4.jpg);
 }
+
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.section{
+    background:linear-gradient(245deg, rgb(53, 181, 91), 30.3%, rgb(47, 178, 178) 66.33%);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.73);
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.section h3{
+    border-top: 2px solid black;
+}
+
+.img img{
+    max-width: 200px;
+}
