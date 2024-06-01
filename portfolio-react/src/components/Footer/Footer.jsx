@@ -1,9 +1,14 @@
+/*
+    Name: Dmitrii Mitin
+    Id: 301255191
+    Date: May 30, 2024
+*/ 
 import React from "react";
 import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footerBlock">
             <hr />
             <div id="block">
                 <div id="footer_text">
