@@ -5,18 +5,16 @@
 */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer'
-import './main.css'
+import '../../main.css'
 import './services.css'
 
 
 
-import img1 from './assets/services/websiteCard.png'
-import img2 from './assets/services/server.jpg'
-import img3 from './assets/services/jCode.png'
-import img4 from './assets/services/cCode.jpg'
-import img5 from './assets/services/code.jpg'
+import img1 from '../../assets/services/websiteCard.png'
+import img2 from '../../assets/services/server.jpg'
+import img3 from '../../assets/services/jCode.png'
+import img4 from '../../assets/services/cCode.jpg'
+import img5 from '../../assets/services/code.jpg'
 
 
 
@@ -25,7 +23,6 @@ import img5 from './assets/services/code.jpg'
 const Services = () => {
     return (
         <div>
-            <Navbar />
                 <h1>Services:</h1>
             <section id="services">
                 <div className='section'>
@@ -69,13 +66,13 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <Services />
-    </React.StrictMode>
-);
+export default Services;
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//     <React.StrictMode>
+//         <Services />
+//     </React.StrictMode>
+// );

@@ -4,7 +4,7 @@
     Date: May 30, 2024
 */ 
 body{
-    background-image: url(./assets/blurPict4.jpg);
+    background-image: url(../../assets/blurPict4.jpg);
 }
 
 #services{
@@ -15,16 +15,25 @@ body{
 
 .section{
     background:linear-gradient(245deg, rgb(53, 181, 91), 30.3%, rgb(47, 178, 178) 66.33%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     margin: 10px;
     padding: 10px;
-    text-align: center;
     box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.73);
-    max-width: 200px;
+    max-width: 240px;
     border-radius: 5px;
 }
 
 .section h3{
+    text-align: center;
     border-top: 2px solid black;
+    margin-top: 10px;
+}
+
+.section img{
+    max-height: 130px;
 }
 
 .img img{

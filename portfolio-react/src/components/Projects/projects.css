@@ -4,10 +4,13 @@
     Date: May 30, 2024
 */ 
 body{
-    background-image: url(./assets/blurPict3.jpg);
+    background-image: url(../../assets/blurPict3.jpg);
     background-size: cover;
-  }
+}
 
+h2{
+    font-size: 17px;
+}
 
 #projects div{
 padding: 10px;

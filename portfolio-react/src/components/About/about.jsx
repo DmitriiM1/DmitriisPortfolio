@@ -6,12 +6,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './main.css'
+import '../../main.css'
 import './about.css'
 
-import pict1 from './assets/IMG_4549.JPG'
-import pict2 from './assets/IMG_4570.JPG'
-import pdf from './assets/Coverletter.pdf'
+import pict1 from '../../assets/IMG_4549.JPG'
+import pict2 from '../../assets/IMG_4570.JPG'
+import pdf from '../../assets/Coverletter.pdf'
 import Button from '@mui/material/Button'
 import SendIcon from '@mui/icons-material/Send'
 
@@ -41,7 +41,7 @@ const About = () => {
                     <div className="link">
                         <p>Here you can find my resume:</p>
                         <Button variant="contained" endIcon={<SendIcon />}>
-                            <a href={pdf} download style={{textDecoration:"none"}}>Download Resume</a>
+                            <a href={pdf} download style={{textDecoration:"none", color:"black"}}>Download Resume</a>
                         </Button>
                         
                     </div>

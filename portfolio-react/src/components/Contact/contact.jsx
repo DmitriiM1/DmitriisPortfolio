@@ -5,17 +5,14 @@
 */ 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navbar from './components/Navbar/Navbar';
-import './main.css'
+import '../../main.css'
 import './contact.css'
 
-import Footer from './components/Footer/Footer'
 
 const Contact = () => {
     return (
         <div>
-            <Navbar />
-                <h1>Contact</h1>
+                <h1>Contact:</h1>
             <section id="about">
                 <div>
                     <a href="mailto:dmitin@my.centennialcollege.ca"><h3>My email: dmitin@my.centennialcollege.ca</h3></a>
@@ -38,13 +35,13 @@ const Contact = () => {
                     </form>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <Contact />
-    </React.StrictMode>
-);
+export default Contact;
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//     <React.StrictMode>
+//         <Contact />
+//     </React.StrictMode>
+// );

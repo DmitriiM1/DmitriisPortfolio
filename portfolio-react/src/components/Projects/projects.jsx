@@ -5,21 +5,19 @@
 */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer'
-import './main.css'
+import '../../main.css'
 import './projects.css'
-import pict1 from './assets/portfolio/rem1.jpg'
-import pict2 from './assets/portfolio/rem2.jpg'
-import pict3 from './assets/portfolio/rem3.jpg'
+import pict1 from '../../assets/portfolio/rem1.jpg'
+import pict2 from '../../assets/portfolio/rem2.jpg'
+import pict3 from '../../assets/portfolio/rem3.jpg'
 
-import pict4 from './assets/portfolio/website1.jpg'
-import pict5 from './assets/portfolio/website1.1.jpg'
-import pict6 from './assets/portfolio/website1.2.jpg'
+import pict4 from '../../assets/portfolio/website1.jpg'
+import pict5 from '../../assets/portfolio/website1.1.jpg'
+import pict6 from '../../assets/portfolio/website1.2.jpg'
 
-import pict7 from './assets/portfolio/website2.jpg'
-import pict8 from './assets/portfolio/website2.2.jpg'
-import pict9 from './assets/portfolio/website2.3.jpg'
+import pict7 from '../../assets/portfolio/website2.jpg'
+import pict8 from '../../assets/portfolio/website2.2.jpg'
+import pict9 from '../../assets/portfolio/website2.3.jpg'
 
 import { CCarousel } from '@coreui/react'
 import { CCarouselItem } from '@coreui/react'
@@ -33,7 +31,6 @@ import '@coreui/coreui/dist/css/coreui.min.css'
 const Projects = () => {
     return (
         <div>
-            <Navbar />
             <h2>My projects:</h2>
             <section id="projects">
                 <div className='firstEx'>
@@ -84,13 +81,13 @@ const Projects = () => {
                     </CCarousel>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <Projects />
-    </React.StrictMode>
-);
+export default Projects;
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//     <React.StrictMode>
+//         <Projects />
+//     </React.StrictMode>
+// );

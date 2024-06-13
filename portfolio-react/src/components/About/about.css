@@ -6,7 +6,7 @@
 
 
 body{
-    background-image: url(./assets/blurPict2.jpg);
+    background-image: url(../../assets/blurPict2.jpg);
 }
 
 #about{
@@ -42,7 +42,7 @@ body{
 }
 
 .about_skill p{
-    min-width: 300px;
+    min-width: 330px;
     font-size: 18px;
     font-weight: 500;
 }
@@ -53,7 +53,8 @@ body{
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(234deg, rgb(137, 139, 17) -5.09%, rgb(151, 24, 24) 106.28%);
+    background: linear-gradient(210deg, rgb(27, 111, 77) 1.33%, rgb(118, 15, 15) 100.28%);
+    opacity: 90%;
 }
 
 .link{
@@ -61,4 +62,9 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.link p{
+    font-size: 18px;
+    margin: 0;
 }

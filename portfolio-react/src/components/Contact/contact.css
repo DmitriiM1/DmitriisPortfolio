@@ -4,14 +4,10 @@
     Date: May 30, 2024
 */ 
 body{
-    background-image: url(./assets/blurPict5.jpg);
-  }
-
-
-
+    background-image: url(../../assets/blurPict5.jpg);
+}
 
 form {
-    
     left: calc(50% - 250px);
     max-width: 500px;
     background-color: white;
@@ -19,11 +15,6 @@ form {
     border: #286762 solid 3px;
 }
 
-
-
-h1 {
-    color: rgb(7, 7, 145);
-}
 
 input {
     height: 40px;
