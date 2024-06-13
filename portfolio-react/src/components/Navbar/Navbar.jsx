@@ -19,11 +19,11 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="nav_menu">
-                    <a href="/index.html"><li>Home</li></a>
-                    <a href="/about.html"><li>About Me</li></a>
-                    <a href="/projects.html"><li>Projects</li></a>
-                    <a href="/services.html"><li>Services</li></a>
-                    <a href="/contact.html"><li>Contact Me</li></a>
+                    <a href="/"><li>Home</li></a>
+                    <a href="/about"><li>About Me</li></a>
+                    <a href="/projects"><li>Projects</li></a>
+                    <a href="/services"><li>Services</li></a>
+                    <a href="/contact"><li>Contact Me</li></a>
                 </ul>
             </div>
         </div>

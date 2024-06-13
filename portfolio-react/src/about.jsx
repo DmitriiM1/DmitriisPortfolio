@@ -5,8 +5,7 @@
 */ 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer'
+
 import './main.css'
 import './about.css'
 
@@ -20,7 +19,6 @@ import SendIcon from '@mui/icons-material/Send'
 const About = () => {
     return (
         <div>
-            <Navbar />
             <div className='top_text'>
                 <p>About me</p>
             </div>
@@ -49,13 +47,14 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <About />
-    </React.StrictMode>
-);
+export default About;
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//     <React.StrictMode>
+//         <About />
+//     </React.StrictMode>
+// );
