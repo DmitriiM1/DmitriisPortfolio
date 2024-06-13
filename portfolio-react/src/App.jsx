@@ -3,9 +3,9 @@
     Id: 301255191
     Date: May 30, 2024
 */ 
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {
