@@ -3,9 +3,10 @@
     Id: 301255191
     Date: May 30, 2024
 */ 
-import React from 'react'
-import './Navbar.css'
-import logo from '../../assets/DmitriiLogo.svg'
+import React from 'react';
+import './Navbar.css';
+import logo from '../../assets/DmitriiLogo.svg';
+import {Link} from "react-router-dom";
 
 
 const Navbar = () => {
@@ -18,12 +19,12 @@ const Navbar = () => {
                 <p>Welcome to my portfolio website</p>
             </div>
             <div>
-                <ul className="nav_menu">
-                    <a href="/"><li>Home</li></a>
-                    <a href="/about"><li>About Me</li></a>
-                    <a href="/projects"><li>Projects</li></a>
-                    <a href="/services"><li>Services</li></a>
-                    <a href="/contact"><li>Contact Me</li></a>
+                <ul className='nav_menu'>
+                <Link to="/"><li>Home</li></Link>
+                <Link to="/about"><li>About me</li></Link>
+                <Link to="/projects"><li>Projects</li></Link>
+                <Link to="/services"><li>Services</li></Link>
+                <Link to="/contact"><li>Contact me</li></Link>
                 </ul>
             </div>
         </div>
