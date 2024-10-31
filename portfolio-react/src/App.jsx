@@ -11,6 +11,8 @@ import About from './components/About/about';
 import Projects from './components/Projects/projects';
 import Services from './components/Services/services';
 import Contact from './components/Contact/contact';
+import TermServices from './components/TermOfServices/termServices';
+import Policy from './components/Policy/policy';
 
 import {
   BrowserRouter as Router,
@@ -33,6 +35,8 @@ const App = () => {
           <Route path='/projects' element={<Projects />} />
           <Route path='/services' element={<Services />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/termOfServices' element={<TermServices />} />
+          <Route path='/policy' element={<Policy />} />
         </Routes>
         <Footer />
       </div>

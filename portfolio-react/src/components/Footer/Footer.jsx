@@ -2,8 +2,9 @@
     Name: Dmitrii Mitin
     Id: 301255191
     Date: May 30, 2024
-*/ 
+*/
 import React from "react";
+import { Link } from "react-router-dom";
 import './Footer.css'
 
 const Footer = () => {
@@ -19,9 +20,17 @@ const Footer = () => {
                 </div>
                 <div id="footer_links">
                     <ul>
-                        <a href=""><li>Term of Services</li></a>
-                        <a href=""><li>Privacy Policy</li></a>
-                        <a href=""><li>Connect with me</li></a>
+                        <Link to='/termOfServices'>
+                            <li>Term of Services</li>
+                        </Link>
+
+                        <Link to='/policy'>
+                            <li>Privacy Policy</li>
+                        </Link>
+
+                        <Link to='/contact'>
+                            <li>Connect with me</li>
+                        </Link>
                     </ul>
                 </div>
 
