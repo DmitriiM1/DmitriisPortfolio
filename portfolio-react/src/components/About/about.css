@@ -20,11 +20,13 @@ body{
 
 #photo_block img{
     width: 300px;
-    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 15px -9px rgba(0, 0, 0, 0.75);
 }
 
 #intro_block p{
     padding: 20px 10px;
+    font-size: 17px;
 }
 
 .about_skills{
@@ -53,14 +55,13 @@ body{
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(210deg, rgb(27, 111, 77) 1.33%, rgb(118, 15, 15) 100.28%);
+    background: linear-gradient(210deg, rgb(27, 111, 77) 1.33%, rgb(118, 15, 15) 150.28%);
     opacity: 90%;
 }
 
 .link{
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
 }
 

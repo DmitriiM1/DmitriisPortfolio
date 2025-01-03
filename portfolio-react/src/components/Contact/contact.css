@@ -7,53 +7,66 @@ body{
     background-image: url(../../assets/blurPict5.jpg);
 }
 
-form {
-    left: calc(50% - 250px);
-    max-width: 500px;
-    background-color: white;
-    margin: 70px auto;
-    border: #286762 solid 3px;
+.aboutLinks a:hover{
+    text-decoration: underline;
+}
+
+.aboutLinks a{
+    text-decoration: none;
+    color: black;
 }
 
 
-input {
-    height: 40px;
+
+
+.wrapper2 {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
     width: 100%;
-    box-sizing: border-box;
-    border: #286762 solid 3px;
-    padding: 5px;
-    margin: 0 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     outline: none;
 }
 
-input:focus {
-    background-color: rgba(54, 246, 208, 0.725);
-    box-shadow: 1px 1px 6px 3px rgba(28, 178, 131, 0.626);
+input.error, textarea.error {
+    border-color: #e74c3c;
 }
 
-textarea {
-    border: #286762 solid 3px;
-    padding: 5px;
-    margin: 0 0 10px;
-    outline: none;
-    resize: none;
-    width: 100%;
-    box-sizing: border-box;
-    
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
-textarea:focus {
-    box-shadow: 1px 1px 6px 3px rgba(28, 178, 131, 0.626);
-}
 .btn3 {
-    height: 50px;
-    width: 100%;
-    font-size: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
     color: white;
-    display: inline-block;
-    text-align: center;
-    background-color:#262350;
-    border: #286762 solid 3px;
-    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn3:hover {
+    background-color: #2980b9;
 }

@@ -27,19 +27,17 @@ import {
 const App = () => {
   return (
     <Router>
-      <div>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/termOfServices' element={<TermServices />} />
-          <Route path='/policy' element={<Policy />} />
+          <Route path='/DmitriisPortfolio/' element={<Home />} />
+          <Route path='/DmitriisPortfolio/about' element={<About />} />
+          <Route path='/DmitriisPortfolio/projects' element={<Projects />} />
+          <Route path='/DmitriisPortfolio/services' element={<Services />} />
+          <Route path='/DmitriisPortfolio/contact' element={<Contact />} />
+          <Route path='/DmitriisPortfolio/termOfServices' element={<TermServices />} />
+          <Route path='/DmitriisPortfolio/policy' element={<Policy />} />
         </Routes>
         <Footer />
-      </div>
     </Router>
   )
 }

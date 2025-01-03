@@ -18,7 +18,7 @@ function Home() {
                         <h2>Dmitrii Mitin</h2>
                     </div>
                     <div className='second_block'>
-                        <h3>I'm a Developer</h3>
+                        <h3>I'm a software engineer</h3>
                         <h3>Based in Toronto, Ontario.</h3>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ import img5 from '../../assets/services/code.jpg'
 const Services = () => {
     return (
         <div>
-                <h1>Services:</h1>
+            <p style={{textAlign:'center', fontSize:'30px'}}>Services:</p>
             <section id="services">
                 <div className='section'>
                     <div className='img'>

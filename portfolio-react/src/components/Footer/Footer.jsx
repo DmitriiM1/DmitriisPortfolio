@@ -20,15 +20,15 @@ const Footer = () => {
                 </div>
                 <div id="footer_links">
                     <ul>
-                        <Link to='/termOfServices'>
+                        <Link to='/DmitriisPortfolio/termOfServices'>
                             <li>Term of Services</li>
                         </Link>
 
-                        <Link to='/policy'>
+                        <Link to='/DmitriisPortfolio/policy'>
                             <li>Privacy Policy</li>
                         </Link>
 
-                        <Link to='/contact'>
+                        <Link to='/DmitriisPortfolio/contact'>
                             <li>Connect with me</li>
                         </Link>
                     </ul>
