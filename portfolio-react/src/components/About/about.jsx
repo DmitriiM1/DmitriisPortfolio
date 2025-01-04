@@ -4,13 +4,13 @@
     Date: May 30, 2024
 */ 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
 
 import '../../main.css'
 import './about.css'
 
-import pict1 from '../../assets/IMG_4549.JPG'
-import pict2 from '../../assets/IMG_4570.JPG'
+import pict1 from '../../assets/IMG_4549.jpeg'
+import pict2 from '../../assets/IMG_4570.jpeg'
 import pdf from '../../assets/DmitriiMitin-Resume.pdf'
 import Button from '@mui/material/Button'
 import SendIcon from '@mui/icons-material/Send'

@@ -4,7 +4,7 @@
     Date: May 30, 2024
 */
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
 import '../../main.css'
 import './projects.css'
 import pict1 from '../../assets/portfolio/rem1.jpg'
@@ -26,14 +26,14 @@ import property4 from '../../assets/portfolio/property4.jpg'
 import property5 from '../../assets/portfolio/property5.jpg'
 import property6 from '../../assets/portfolio/property6.jpg'
 
-import airlines1 from '../../assets/portfolio/airlines1.jpg'
-import airlines2 from '../../assets/portfolio/airlines2.jpg'
+import airlines1 from '../../assets/portfolio/airlines1.jpeg'
+import airlines2 from '../../assets/portfolio/airlines2.jpeg'
 import airlines3 from '../../assets/portfolio/airlines3.jpg'
 import airlines4 from '../../assets/portfolio/airlines4.jpg'
 import airlines5 from '../../assets/portfolio/airlines5.jpg'
 import airlines6 from '../../assets/portfolio/airlines6.jpg'
 
-import mir1 from '../../assets/portfolio/mir1.jpg'
+import mir1 from '../../assets/portfolio/mir1.jpeg'
 import mir2 from '../../assets/portfolio/mir2.jpg'
 import mir3 from '../../assets/portfolio/mir3.jpg'
 import mir4 from '../../assets/portfolio/mir4.jpg'
